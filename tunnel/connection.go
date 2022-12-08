@@ -12,9 +12,9 @@ import (
 	"github.com/Dreamacro/clash/log"
 )
 
-func handleUDPToRemote(packet C.UDPPacket, pc C.PacketConn, metadata *C.Metadata) error {
+func handleUDPToRemote(packet C.UDPPacket, pc net.PacketConn, metadata *C.Metadata) error {
+	pc = unwrapPacket(pc)
 	defer packet.Drop()
-
 	addr := metadata.UDPAddr()
 	if addr == nil {
 		return errors.New("udp addr invalid")
@@ -30,6 +30,7 @@ func handleUDPToRemote(packet C.UDPPacket, pc C.PacketConn, metadata *C.Metadata
 }
 
 func handleUDPToLocal(packet C.UDPPacket, pc net.PacketConn, key string, oAddr, fAddr netip.Addr) {
+	pc = unwrapPacket(pc)
 	buf := pool.Get(pool.UDPBufferSize)
 	defer func() {
 		_ = pc.Close()
@@ -77,5 +78,11 @@ func closeAllLocalCoon(lAddr string) {
 }
 
 func handleSocket(ctx C.ConnContext, outbound net.Conn) {
+	left := unwrap(ctx.Conn())
+	right := unwrap(outbound)
+
+	if relayHijack(left, right) {
+		return
+	}
 	N.Relay(ctx.Conn(), outbound)
 }

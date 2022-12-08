@@ -8,7 +8,6 @@ import (
 	"sync"
 
 	"github.com/Dreamacro/clash/adapter"
-	"github.com/Dreamacro/clash/adapter/inbound"
 	"github.com/Dreamacro/clash/adapter/outboundgroup"
 	"github.com/Dreamacro/clash/component/auth"
 	"github.com/Dreamacro/clash/component/dialer"
@@ -166,7 +165,6 @@ func updateListeners(general *config.General, listeners map[string]C.InboundList
 	listener.ReCreateHTTP(general.Port, tcpIn)
 	listener.ReCreateSocks(general.SocksPort, tcpIn, udpIn)
 	listener.ReCreateRedir(general.RedirPort, tcpIn, udpIn, natTable)
-	listener.ReCreateAutoRedir(general.EBpf.AutoRedir, tcpIn, udpIn)
 	listener.ReCreateTProxy(general.TProxyPort, tcpIn, udpIn, natTable)
 	listener.ReCreateMixed(general.MixedPort, tcpIn, udpIn)
 	listener.ReCreateShadowSocks(general.ShadowSocksConfig, tcpIn, udpIn)
@@ -218,7 +216,6 @@ func updateDNS(c *config.DNS, generalIPv6 bool) {
 
 	resolver.DefaultResolver = r
 	resolver.DefaultHostMapper = m
-	resolver.DefaultLocalServer = dns.NewLocalServer(r, m)
 
 	if pr.HasProxyServer() {
 		resolver.ProxyServerHostResolver = pr
@@ -339,8 +336,6 @@ func updateGeneral(general *config.General) {
 		dialer.SetTcpConcurrent(general.TCPConcurrent)
 		log.Infoln("Use tcp concurrent")
 	}
-
-	inbound.SetTfo(general.InboundTfo)
 
 	adapter.UnifiedDelay.Store(general.UnifiedDelay)
 
