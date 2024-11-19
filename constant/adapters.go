@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Dreamacro/clash/component/dialer"
+	"github.com/Ruk1ng001/Clash.Meta/component/dialer"
 )
 
 // Adapter Type

@@ -5,8 +5,8 @@ import (
 	"net"
 	"net/http"
 
-	tlsC "github.com/Dreamacro/clash/component/tls"
-	"github.com/Dreamacro/clash/transport/vmess"
+	tlsC "github.com/Ruk1ng001/Clash.Meta/component/tls"
+	"github.com/Ruk1ng001/Clash.Meta/transport/vmess"
 )
 
 // Option is options of websocket obfs

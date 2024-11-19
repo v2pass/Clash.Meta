@@ -1,7 +1,7 @@
 package udp
 
 import (
-	"github.com/Dreamacro/clash/transport/hysteria/obfs"
+	"github.com/Ruk1ng001/Clash.Meta/transport/hysteria/obfs"
 	"net"
 	"sync"
 	"time"

@@ -9,11 +9,11 @@ import (
 	"net/netip"
 	"strings"
 
-	tlsC "github.com/Dreamacro/clash/component/tls"
+	tlsC "github.com/Ruk1ng001/Clash.Meta/component/tls"
 	"go.uber.org/atomic"
 
-	"github.com/Dreamacro/clash/component/dialer"
-	"github.com/Dreamacro/clash/component/resolver"
+	"github.com/Ruk1ng001/Clash.Meta/component/dialer"
+	"github.com/Ruk1ng001/Clash.Meta/component/resolver"
 
 	D "github.com/miekg/dns"
 )

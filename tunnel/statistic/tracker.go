@@ -4,9 +4,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/Dreamacro/clash/common/buf"
-	N "github.com/Dreamacro/clash/common/net"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/Ruk1ng001/Clash.Meta/common/buf"
+	N "github.com/Ruk1ng001/Clash.Meta/common/net"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
 
 	"github.com/gofrs/uuid"
 	"go.uber.org/atomic"

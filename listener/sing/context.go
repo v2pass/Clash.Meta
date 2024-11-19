@@ -3,7 +3,7 @@ package sing
 import (
 	"context"
 
-	"github.com/Dreamacro/clash/adapter/inbound"
+	"github.com/Ruk1ng001/Clash.Meta/adapter/inbound"
 )
 
 type contextKey string

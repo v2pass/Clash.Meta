@@ -3,11 +3,11 @@ package inbound
 import (
 	"fmt"
 
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	"github.com/Ruk1ng001/Clash.Meta/log"
 
-	"github.com/Dreamacro/clash/listener/mixed"
-	"github.com/Dreamacro/clash/listener/socks"
+	"github.com/Ruk1ng001/Clash.Meta/listener/mixed"
+	"github.com/Ruk1ng001/Clash.Meta/listener/socks"
 )
 
 type MixedOption struct {

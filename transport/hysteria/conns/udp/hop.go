@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Dreamacro/clash/transport/hysteria/obfs"
-	"github.com/Dreamacro/clash/transport/hysteria/utils"
+	"github.com/Ruk1ng001/Clash.Meta/transport/hysteria/obfs"
+	"github.com/Ruk1ng001/Clash.Meta/transport/hysteria/utils"
 )
 
 const (

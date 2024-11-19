@@ -2,8 +2,8 @@ package wechat
 
 import (
 	"encoding/binary"
-	"github.com/Dreamacro/clash/log"
-	"github.com/Dreamacro/clash/transport/hysteria/obfs"
+	"github.com/Ruk1ng001/Clash.Meta/log"
+	"github.com/Ruk1ng001/Clash.Meta/transport/hysteria/obfs"
 	"math/rand"
 	"net"
 	"sync"

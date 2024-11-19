@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Dreamacro/clash/common/generics/list"
-	N "github.com/Dreamacro/clash/common/net"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
+	"github.com/Ruk1ng001/Clash.Meta/common/generics/list"
+	N "github.com/Ruk1ng001/Clash.Meta/common/net"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	"github.com/Ruk1ng001/Clash.Meta/log"
 )
 
 type dialResult struct {

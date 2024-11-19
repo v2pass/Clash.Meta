@@ -350,7 +350,7 @@ We also made a custom fork of yacd provide better support for this project, chec
 ## Development
 
 If you want to build an application that uses clash as a library, check out the
-the [GitHub Wiki](https://github.com/Dreamacro/clash/wiki/use-clash-as-a-library)
+the [GitHub Wiki](https://github.com/Ruk1ng001/Clash.Meta/wiki/use-clash-as-a-library)
 
 ## Debugging
 Check [wiki](https://github.com/MetaCubeX/Clash.Meta/wiki/How-to-use-debug-api) to get an instruction on using debug API.
@@ -358,7 +358,7 @@ Check [wiki](https://github.com/MetaCubeX/Clash.Meta/wiki/How-to-use-debug-api) 
 
 ## Credits
 
-- [Dreamacro/clash](https://github.com/Dreamacro/clash)
+- [Dreamacro/clash](https://github.com/Ruk1ng001/Clash.Meta)
 - [SagerNet/sing-box](https://github.com/SagerNet/sing-box)
 - [riobard/go-shadowsocks2](https://github.com/riobard/go-shadowsocks2)
 - [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core)

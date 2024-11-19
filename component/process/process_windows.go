@@ -7,8 +7,8 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/Dreamacro/clash/common/nnip"
-	"github.com/Dreamacro/clash/log"
+	"github.com/Ruk1ng001/Clash.Meta/common/nnip"
+	"github.com/Ruk1ng001/Clash.Meta/log"
 
 	"golang.org/x/sys/windows"
 )

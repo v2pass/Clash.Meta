@@ -3,7 +3,7 @@ package sing
 import (
 	"fmt"
 
-	"github.com/Dreamacro/clash/log"
+	"github.com/Ruk1ng001/Clash.Meta/log"
 
 	L "github.com/sagernet/sing/common/logger"
 )

@@ -4,7 +4,7 @@ import (
 	"crypto/tls"
 	"net"
 
-	"github.com/Dreamacro/clash/log"
+	"github.com/Ruk1ng001/Clash.Meta/log"
 
 	"github.com/mroth/weightedrand/v2"
 	utls "github.com/refraction-networking/utls"

@@ -1,7 +1,6 @@
-module github.com/Dreamacro/clash
+module github.com/Ruk1ng001/Clash.Meta
 
-go 1.19
-
+go 1.20
 require (
 	github.com/aead/chacha20 v0.0.0-20180709150244-8b13a72661da
 	github.com/cilium/ebpf v0.9.3

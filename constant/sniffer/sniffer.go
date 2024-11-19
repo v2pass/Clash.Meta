@@ -1,6 +1,6 @@
 package sniffer
 
-import "github.com/Dreamacro/clash/constant"
+import "github.com/Ruk1ng001/Clash.Meta/constant"
 
 type Sniffer interface {
 	SupportNetwork() constant.NetWork

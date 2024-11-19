@@ -10,9 +10,9 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/Dreamacro/clash/component/dhcp"
-	"github.com/Dreamacro/clash/component/iface"
-	"github.com/Dreamacro/clash/component/resolver"
+	"github.com/Ruk1ng001/Clash.Meta/component/dhcp"
+	"github.com/Ruk1ng001/Clash.Meta/component/iface"
+	"github.com/Ruk1ng001/Clash.Meta/component/resolver"
 
 	D "github.com/miekg/dns"
 )

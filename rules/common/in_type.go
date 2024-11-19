@@ -2,7 +2,7 @@ package common
 
 import (
 	"fmt"
-	C "github.com/Dreamacro/clash/constant"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
 	"strings"
 )
 

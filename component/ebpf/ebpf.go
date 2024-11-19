@@ -3,8 +3,8 @@ package ebpf
 import (
 	"net/netip"
 
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/transport/socks5"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	"github.com/Ruk1ng001/Clash.Meta/transport/socks5"
 )
 
 type TcEBpfProgram struct {

@@ -9,11 +9,11 @@ import (
 
 	"github.com/metacubex/quic-go"
 
-	"github.com/Dreamacro/clash/transport/hysteria/conns/faketcp"
-	"github.com/Dreamacro/clash/transport/hysteria/conns/udp"
-	"github.com/Dreamacro/clash/transport/hysteria/conns/wechat"
-	obfsPkg "github.com/Dreamacro/clash/transport/hysteria/obfs"
-	"github.com/Dreamacro/clash/transport/hysteria/utils"
+	"github.com/Ruk1ng001/Clash.Meta/transport/hysteria/conns/faketcp"
+	"github.com/Ruk1ng001/Clash.Meta/transport/hysteria/conns/udp"
+	"github.com/Ruk1ng001/Clash.Meta/transport/hysteria/conns/wechat"
+	obfsPkg "github.com/Ruk1ng001/Clash.Meta/transport/hysteria/obfs"
+	"github.com/Ruk1ng001/Clash.Meta/transport/hysteria/utils"
 )
 
 type ClientTransport struct {

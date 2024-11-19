@@ -3,9 +3,9 @@ package http
 import (
 	"net"
 
-	"github.com/Dreamacro/clash/adapter/inbound"
-	"github.com/Dreamacro/clash/common/cache"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/Ruk1ng001/Clash.Meta/adapter/inbound"
+	"github.com/Ruk1ng001/Clash.Meta/common/cache"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
 )
 
 type Listener struct {

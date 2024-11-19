@@ -7,9 +7,9 @@ import (
 	"net"
 	"strings"
 
-	"github.com/Dreamacro/clash/common/utils"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/constant/sniffer"
+	"github.com/Ruk1ng001/Clash.Meta/common/utils"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	"github.com/Ruk1ng001/Clash.Meta/constant/sniffer"
 )
 
 var (

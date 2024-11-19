@@ -15,9 +15,9 @@ import (
 	"sync"
 	"time"
 
-	tlsC "github.com/Dreamacro/clash/component/tls"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
+	tlsC "github.com/Ruk1ng001/Clash.Meta/component/tls"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	"github.com/Ruk1ng001/Clash.Meta/log"
 	"github.com/metacubex/quic-go"
 	"github.com/metacubex/quic-go/http3"
 	D "github.com/miekg/dns"

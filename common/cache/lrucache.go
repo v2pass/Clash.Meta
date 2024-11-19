@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Dreamacro/clash/common/generics/list"
+	"github.com/Ruk1ng001/Clash.Meta/common/generics/list"
 )
 
 // Option is part of Functional Options Pattern

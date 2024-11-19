@@ -1,10 +1,10 @@
 package inbound
 
 import (
-	C "github.com/Dreamacro/clash/constant"
-	LC "github.com/Dreamacro/clash/listener/config"
-	"github.com/Dreamacro/clash/listener/sing_vmess"
-	"github.com/Dreamacro/clash/log"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	LC "github.com/Ruk1ng001/Clash.Meta/listener/config"
+	"github.com/Ruk1ng001/Clash.Meta/listener/sing_vmess"
+	"github.com/Ruk1ng001/Clash.Meta/log"
 )
 
 type VmessOption struct {

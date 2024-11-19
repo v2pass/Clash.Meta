@@ -13,11 +13,11 @@ import (
 	"strings"
 	"sync"
 
-	CN "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/component/dialer"
-	"github.com/Dreamacro/clash/component/resolver"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/listener/sing"
+	CN "github.com/Ruk1ng001/Clash.Meta/common/net"
+	"github.com/Ruk1ng001/Clash.Meta/component/dialer"
+	"github.com/Ruk1ng001/Clash.Meta/component/resolver"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	"github.com/Ruk1ng001/Clash.Meta/listener/sing"
 
 	wireguard "github.com/metacubex/sing-wireguard"
 

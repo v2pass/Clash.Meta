@@ -17,9 +17,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Dreamacro/clash/common/buf"
-	"github.com/Dreamacro/clash/common/pool"
-	tlsC "github.com/Dreamacro/clash/component/tls"
+	"github.com/Ruk1ng001/Clash.Meta/common/buf"
+	"github.com/Ruk1ng001/Clash.Meta/common/pool"
+	tlsC "github.com/Ruk1ng001/Clash.Meta/component/tls"
 	"go.uber.org/atomic"
 	"golang.org/x/net/http2"
 )

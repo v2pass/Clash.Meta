@@ -8,13 +8,13 @@ import (
 	"net/http"
 	"strconv"
 
-	N "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/component/dialer"
-	tlsC "github.com/Dreamacro/clash/component/tls"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/transport/gun"
-	"github.com/Dreamacro/clash/transport/trojan"
-	"github.com/Dreamacro/clash/transport/vless"
+	N "github.com/Ruk1ng001/Clash.Meta/common/net"
+	"github.com/Ruk1ng001/Clash.Meta/component/dialer"
+	tlsC "github.com/Ruk1ng001/Clash.Meta/component/tls"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	"github.com/Ruk1ng001/Clash.Meta/transport/gun"
+	"github.com/Ruk1ng001/Clash.Meta/transport/trojan"
+	"github.com/Ruk1ng001/Clash.Meta/transport/vless"
 )
 
 type Trojan struct {

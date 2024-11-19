@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Dreamacro/clash/common/buf"
-	N "github.com/Dreamacro/clash/common/net"
+	"github.com/Ruk1ng001/Clash.Meta/common/buf"
+	N "github.com/Ruk1ng001/Clash.Meta/common/net"
 
 	"github.com/gofrs/uuid"
 	xtls "github.com/xtls/go"

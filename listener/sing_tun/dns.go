@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Dreamacro/clash/common/pool"
-	"github.com/Dreamacro/clash/component/resolver"
-	"github.com/Dreamacro/clash/listener/sing"
-	"github.com/Dreamacro/clash/log"
+	"github.com/Ruk1ng001/Clash.Meta/common/pool"
+	"github.com/Ruk1ng001/Clash.Meta/component/resolver"
+	"github.com/Ruk1ng001/Clash.Meta/listener/sing"
+	"github.com/Ruk1ng001/Clash.Meta/log"
 
 	D "github.com/miekg/dns"
 

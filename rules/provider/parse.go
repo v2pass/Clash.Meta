@@ -2,10 +2,10 @@ package provider
 
 import (
 	"fmt"
-	"github.com/Dreamacro/clash/common/structure"
-	"github.com/Dreamacro/clash/component/resource"
-	C "github.com/Dreamacro/clash/constant"
-	P "github.com/Dreamacro/clash/constant/provider"
+	"github.com/Ruk1ng001/Clash.Meta/common/structure"
+	"github.com/Ruk1ng001/Clash.Meta/component/resource"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	P "github.com/Ruk1ng001/Clash.Meta/constant/provider"
 	"time"
 )
 

@@ -19,15 +19,15 @@ import (
 	"github.com/metacubex/quic-go/congestion"
 	M "github.com/sagernet/sing/common/metadata"
 
-	"github.com/Dreamacro/clash/component/dialer"
-	tlsC "github.com/Dreamacro/clash/component/tls"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
-	hyCongestion "github.com/Dreamacro/clash/transport/hysteria/congestion"
-	"github.com/Dreamacro/clash/transport/hysteria/core"
-	"github.com/Dreamacro/clash/transport/hysteria/obfs"
-	"github.com/Dreamacro/clash/transport/hysteria/pmtud_fix"
-	"github.com/Dreamacro/clash/transport/hysteria/transport"
+	"github.com/Ruk1ng001/Clash.Meta/component/dialer"
+	tlsC "github.com/Ruk1ng001/Clash.Meta/component/tls"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	"github.com/Ruk1ng001/Clash.Meta/log"
+	hyCongestion "github.com/Ruk1ng001/Clash.Meta/transport/hysteria/congestion"
+	"github.com/Ruk1ng001/Clash.Meta/transport/hysteria/core"
+	"github.com/Ruk1ng001/Clash.Meta/transport/hysteria/obfs"
+	"github.com/Ruk1ng001/Clash.Meta/transport/hysteria/pmtud_fix"
+	"github.com/Ruk1ng001/Clash.Meta/transport/hysteria/transport"
 )
 
 const (
