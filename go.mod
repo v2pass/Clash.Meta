@@ -1,10 +1,11 @@
 module github.com/Ruk1ng001/Clash.Meta
 
 go 1.20
+
 require (
 	github.com/aead/chacha20 v0.0.0-20180709150244-8b13a72661da
 	github.com/cilium/ebpf v0.9.3
-	github.com/coreos/go-iptables v0.6.0
+	github.com/coreos/go-iptables v0.8.0
 	github.com/dlclark/regexp2 v1.7.0
 	github.com/go-chi/chi/v5 v5.0.8
 	github.com/go-chi/cors v1.2.1
