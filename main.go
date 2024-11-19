@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/Dreamacro/clash/constant/features"
+	"github.com/Ruk1ng001/Clash.Meta/constant/features"
 	"os"
 	"os/signal"
 	"path/filepath"
@@ -11,11 +11,11 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/Dreamacro/clash/config"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/hub"
-	"github.com/Dreamacro/clash/hub/executor"
-	"github.com/Dreamacro/clash/log"
+	"github.com/Ruk1ng001/Clash.Meta/config"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	"github.com/Ruk1ng001/Clash.Meta/hub"
+	"github.com/Ruk1ng001/Clash.Meta/hub/executor"
+	"github.com/Ruk1ng001/Clash.Meta/log"
 
 	"go.uber.org/automaxprocs/maxprocs"
 )

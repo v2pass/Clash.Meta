@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Dreamacro/clash/adapter/inbound"
-	CN "github.com/Dreamacro/clash/common/net"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
-	"github.com/Dreamacro/clash/tunnel/statistic"
+	"github.com/Ruk1ng001/Clash.Meta/adapter/inbound"
+	CN "github.com/Ruk1ng001/Clash.Meta/common/net"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	"github.com/Ruk1ng001/Clash.Meta/log"
+	"github.com/Ruk1ng001/Clash.Meta/tunnel/statistic"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/cors"

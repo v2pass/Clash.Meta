@@ -6,8 +6,8 @@ import (
 	"net"
 	"net/netip"
 
-	"github.com/Dreamacro/clash/common/nnip"
-	"github.com/Dreamacro/clash/component/iface"
+	"github.com/Ruk1ng001/Clash.Meta/common/nnip"
+	"github.com/Ruk1ng001/Clash.Meta/component/iface"
 
 	"github.com/insomniacslk/dhcp/dhcpv4"
 )

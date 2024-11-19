@@ -4,11 +4,11 @@ import (
 	"net"
 	"strings"
 
-	"github.com/Dreamacro/clash/adapter/inbound"
-	C "github.com/Dreamacro/clash/constant"
-	LC "github.com/Dreamacro/clash/listener/config"
-	"github.com/Dreamacro/clash/transport/shadowsocks/core"
-	"github.com/Dreamacro/clash/transport/socks5"
+	"github.com/Ruk1ng001/Clash.Meta/adapter/inbound"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	LC "github.com/Ruk1ng001/Clash.Meta/listener/config"
+	"github.com/Ruk1ng001/Clash.Meta/transport/shadowsocks/core"
+	"github.com/Ruk1ng001/Clash.Meta/transport/socks5"
 )
 
 type Listener struct {

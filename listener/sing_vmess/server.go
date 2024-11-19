@@ -6,10 +6,10 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/Dreamacro/clash/adapter/inbound"
-	C "github.com/Dreamacro/clash/constant"
-	LC "github.com/Dreamacro/clash/listener/config"
-	"github.com/Dreamacro/clash/listener/sing"
+	"github.com/Ruk1ng001/Clash.Meta/adapter/inbound"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	LC "github.com/Ruk1ng001/Clash.Meta/listener/config"
+	"github.com/Ruk1ng001/Clash.Meta/listener/sing"
 
 	vmess "github.com/sagernet/sing-vmess"
 	"github.com/sagernet/sing/common"

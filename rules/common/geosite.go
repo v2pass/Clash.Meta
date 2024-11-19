@@ -3,12 +3,12 @@ package common
 import (
 	"fmt"
 
-	"github.com/Dreamacro/clash/component/geodata"
-	_ "github.com/Dreamacro/clash/component/geodata/memconservative"
-	"github.com/Dreamacro/clash/component/geodata/router"
-	_ "github.com/Dreamacro/clash/component/geodata/standard"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
+	"github.com/Ruk1ng001/Clash.Meta/component/geodata"
+	_ "github.com/Ruk1ng001/Clash.Meta/component/geodata/memconservative"
+	"github.com/Ruk1ng001/Clash.Meta/component/geodata/router"
+	_ "github.com/Ruk1ng001/Clash.Meta/component/geodata/standard"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	"github.com/Ruk1ng001/Clash.Meta/log"
 )
 
 type GEOSITE struct {

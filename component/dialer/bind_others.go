@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Dreamacro/clash/component/iface"
+	"github.com/Ruk1ng001/Clash.Meta/component/iface"
 )
 
 func lookupLocalAddr(ifaceName string, network string, destination netip.Addr, port int) (net.Addr, error) {

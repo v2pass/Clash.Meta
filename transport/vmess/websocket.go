@@ -19,9 +19,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Dreamacro/clash/common/buf"
-	N "github.com/Dreamacro/clash/common/net"
-	tlsC "github.com/Dreamacro/clash/component/tls"
+	"github.com/Ruk1ng001/Clash.Meta/common/buf"
+	N "github.com/Ruk1ng001/Clash.Meta/common/net"
+	tlsC "github.com/Ruk1ng001/Clash.Meta/component/tls"
 	"github.com/gorilla/websocket"
 )
 

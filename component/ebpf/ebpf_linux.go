@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"net/netip"
 
-	"github.com/Dreamacro/clash/common/cmd"
-	"github.com/Dreamacro/clash/component/dialer"
-	"github.com/Dreamacro/clash/component/ebpf/redir"
-	"github.com/Dreamacro/clash/component/ebpf/tc"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/Ruk1ng001/Clash.Meta/common/cmd"
+	"github.com/Ruk1ng001/Clash.Meta/component/dialer"
+	"github.com/Ruk1ng001/Clash.Meta/component/ebpf/redir"
+	"github.com/Ruk1ng001/Clash.Meta/component/ebpf/tc"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
 	"github.com/sagernet/netlink"
 )
 

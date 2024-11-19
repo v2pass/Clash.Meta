@@ -2,7 +2,7 @@ package vmess
 
 import (
 	"fmt"
-	"github.com/Dreamacro/clash/common/utils"
+	"github.com/Ruk1ng001/Clash.Meta/common/utils"
 	"math/rand"
 	"net"
 	"runtime"

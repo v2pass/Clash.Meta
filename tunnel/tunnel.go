@@ -13,15 +13,15 @@ import (
 
 	"github.com/jpillora/backoff"
 
-	"github.com/Dreamacro/clash/component/nat"
-	P "github.com/Dreamacro/clash/component/process"
-	"github.com/Dreamacro/clash/component/resolver"
-	"github.com/Dreamacro/clash/component/sniffer"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/constant/provider"
-	icontext "github.com/Dreamacro/clash/context"
-	"github.com/Dreamacro/clash/log"
-	"github.com/Dreamacro/clash/tunnel/statistic"
+	"github.com/Ruk1ng001/Clash.Meta/component/nat"
+	P "github.com/Ruk1ng001/Clash.Meta/component/process"
+	"github.com/Ruk1ng001/Clash.Meta/component/resolver"
+	"github.com/Ruk1ng001/Clash.Meta/component/sniffer"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	"github.com/Ruk1ng001/Clash.Meta/constant/provider"
+	icontext "github.com/Ruk1ng001/Clash.Meta/context"
+	"github.com/Ruk1ng001/Clash.Meta/log"
+	"github.com/Ruk1ng001/Clash.Meta/tunnel/statistic"
 )
 
 var (

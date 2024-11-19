@@ -11,13 +11,13 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/Dreamacro/clash/common/cache"
-	"github.com/Dreamacro/clash/component/fakeip"
-	"github.com/Dreamacro/clash/component/geodata/router"
-	"github.com/Dreamacro/clash/component/resolver"
-	"github.com/Dreamacro/clash/component/trie"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
+	"github.com/Ruk1ng001/Clash.Meta/common/cache"
+	"github.com/Ruk1ng001/Clash.Meta/component/fakeip"
+	"github.com/Ruk1ng001/Clash.Meta/component/geodata/router"
+	"github.com/Ruk1ng001/Clash.Meta/component/resolver"
+	"github.com/Ruk1ng001/Clash.Meta/component/trie"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	"github.com/Ruk1ng001/Clash.Meta/log"
 
 	D "github.com/miekg/dns"
 	"golang.org/x/sync/singleflight"

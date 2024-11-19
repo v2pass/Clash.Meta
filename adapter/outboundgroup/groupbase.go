@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Dreamacro/clash/adapter/outbound"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/constant/provider"
-	types "github.com/Dreamacro/clash/constant/provider"
-	"github.com/Dreamacro/clash/log"
-	"github.com/Dreamacro/clash/tunnel"
+	"github.com/Ruk1ng001/Clash.Meta/adapter/outbound"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	"github.com/Ruk1ng001/Clash.Meta/constant/provider"
+	types "github.com/Ruk1ng001/Clash.Meta/constant/provider"
+	"github.com/Ruk1ng001/Clash.Meta/log"
+	"github.com/Ruk1ng001/Clash.Meta/tunnel"
 
 	"github.com/dlclark/regexp2"
 	"go.uber.org/atomic"

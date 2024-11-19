@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package clash.component.geodata.router;
 option csharp_namespace = "Clash.Component.Geodata.Router";
-option go_package = "github.com/Dreamacro/clash/component/geodata/router";
+option go_package = "github.com/Ruk1ng001/Clash.Meta/component/geodata/router";
 option java_package = "com.clash.component.geodata.router";
 option java_multiple_files = true;
 

@@ -3,7 +3,7 @@ package vless
 import (
 	"net"
 
-	"github.com/Dreamacro/clash/common/utils"
+	"github.com/Ruk1ng001/Clash.Meta/common/utils"
 
 	"github.com/gofrs/uuid"
 )

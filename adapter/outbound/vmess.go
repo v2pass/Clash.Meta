@@ -11,12 +11,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Dreamacro/clash/component/dialer"
-	"github.com/Dreamacro/clash/component/resolver"
-	tlsC "github.com/Dreamacro/clash/component/tls"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/transport/gun"
-	clashVMess "github.com/Dreamacro/clash/transport/vmess"
+	"github.com/Ruk1ng001/Clash.Meta/component/dialer"
+	"github.com/Ruk1ng001/Clash.Meta/component/resolver"
+	tlsC "github.com/Ruk1ng001/Clash.Meta/component/tls"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	"github.com/Ruk1ng001/Clash.Meta/transport/gun"
+	clashVMess "github.com/Ruk1ng001/Clash.Meta/transport/vmess"
 
 	vmess "github.com/sagernet/sing-vmess"
 	"github.com/sagernet/sing-vmess/packetaddr"

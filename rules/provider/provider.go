@@ -2,9 +2,9 @@ package provider
 
 import (
 	"encoding/json"
-	"github.com/Dreamacro/clash/component/resource"
-	C "github.com/Dreamacro/clash/constant"
-	P "github.com/Dreamacro/clash/constant/provider"
+	"github.com/Ruk1ng001/Clash.Meta/component/resource"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	P "github.com/Ruk1ng001/Clash.Meta/constant/provider"
 	"gopkg.in/yaml.v3"
 	"runtime"
 	"time"

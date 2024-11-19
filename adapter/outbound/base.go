@@ -7,9 +7,9 @@ import (
 	"net"
 	"strings"
 
-	N "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/component/dialer"
-	C "github.com/Dreamacro/clash/constant"
+	N "github.com/Ruk1ng001/Clash.Meta/common/net"
+	"github.com/Ruk1ng001/Clash.Meta/component/dialer"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
 
 	"github.com/gofrs/uuid"
 )

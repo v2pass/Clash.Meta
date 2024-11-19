@@ -2,8 +2,8 @@ package provider
 
 import (
 	"fmt"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/log"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	"github.com/Ruk1ng001/Clash.Meta/log"
 	"strings"
 )
 

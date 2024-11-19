@@ -3,8 +3,8 @@ package context
 import (
 	"net"
 
-	N "github.com/Dreamacro/clash/common/net"
-	C "github.com/Dreamacro/clash/constant"
+	N "github.com/Ruk1ng001/Clash.Meta/common/net"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
 
 	"github.com/gofrs/uuid"
 )

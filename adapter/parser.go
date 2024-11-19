@@ -3,11 +3,11 @@ package adapter
 import (
 	"fmt"
 
-	tlsC "github.com/Dreamacro/clash/component/tls"
+	tlsC "github.com/Ruk1ng001/Clash.Meta/component/tls"
 
-	"github.com/Dreamacro/clash/adapter/outbound"
-	"github.com/Dreamacro/clash/common/structure"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/Ruk1ng001/Clash.Meta/adapter/outbound"
+	"github.com/Ruk1ng001/Clash.Meta/common/structure"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
 )
 
 func ParseProxy(mapping map[string]any) (C.Proxy, error) {

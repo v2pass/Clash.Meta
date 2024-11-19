@@ -2,8 +2,8 @@ package resource
 
 import (
 	"context"
-	clashHttp "github.com/Dreamacro/clash/component/http"
-	types "github.com/Dreamacro/clash/constant/provider"
+	clashHttp "github.com/Ruk1ng001/Clash.Meta/component/http"
+	types "github.com/Ruk1ng001/Clash.Meta/constant/provider"
 	"io"
 	"net/http"
 	"os"

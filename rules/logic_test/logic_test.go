@@ -2,10 +2,10 @@ package logic_test
 
 import (
 	// https://github.com/golang/go/wiki/CodeReviewComments#import-dot
-	. "github.com/Dreamacro/clash/rules/logic"
+	. "github.com/Ruk1ng001/Clash.Meta/rules/logic"
 
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/rules"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	"github.com/Ruk1ng001/Clash.Meta/rules"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

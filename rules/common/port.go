@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Dreamacro/clash/common/utils"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/Ruk1ng001/Clash.Meta/common/utils"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
 )
 
 type Port struct {

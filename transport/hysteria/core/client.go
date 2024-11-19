@@ -16,10 +16,10 @@ import (
 	"github.com/metacubex/quic-go"
 	"github.com/metacubex/quic-go/congestion"
 
-	"github.com/Dreamacro/clash/transport/hysteria/obfs"
-	"github.com/Dreamacro/clash/transport/hysteria/pmtud_fix"
-	"github.com/Dreamacro/clash/transport/hysteria/transport"
-	"github.com/Dreamacro/clash/transport/hysteria/utils"
+	"github.com/Ruk1ng001/Clash.Meta/transport/hysteria/obfs"
+	"github.com/Ruk1ng001/Clash.Meta/transport/hysteria/pmtud_fix"
+	"github.com/Ruk1ng001/Clash.Meta/transport/hysteria/transport"
+	"github.com/Ruk1ng001/Clash.Meta/transport/hysteria/utils"
 )
 
 var (

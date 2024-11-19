@@ -2,9 +2,9 @@ package route
 
 import (
 	"context"
-	"github.com/Dreamacro/clash/adapter"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/tunnel"
+	"github.com/Ruk1ng001/Clash.Meta/adapter"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	"github.com/Ruk1ng001/Clash.Meta/tunnel"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
 	"net/http"

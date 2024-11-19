@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	CN "github.com/Dreamacro/clash/common/net"
+	CN "github.com/Ruk1ng001/Clash.Meta/common/net"
 
 	xtls "github.com/xtls/go"
 )

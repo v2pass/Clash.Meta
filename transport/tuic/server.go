@@ -14,10 +14,10 @@ import (
 	"github.com/gofrs/uuid"
 	"github.com/metacubex/quic-go"
 
-	N "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/common/pool"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/transport/socks5"
+	N "github.com/Ruk1ng001/Clash.Meta/common/net"
+	"github.com/Ruk1ng001/Clash.Meta/common/pool"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	"github.com/Ruk1ng001/Clash.Meta/transport/socks5"
 )
 
 type ServerOption struct {

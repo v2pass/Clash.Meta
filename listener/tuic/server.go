@@ -8,14 +8,14 @@ import (
 
 	"github.com/metacubex/quic-go"
 
-	"github.com/Dreamacro/clash/adapter/inbound"
-	CN "github.com/Dreamacro/clash/common/net"
-	"github.com/Dreamacro/clash/common/sockopt"
-	C "github.com/Dreamacro/clash/constant"
-	LC "github.com/Dreamacro/clash/listener/config"
-	"github.com/Dreamacro/clash/log"
-	"github.com/Dreamacro/clash/transport/socks5"
-	"github.com/Dreamacro/clash/transport/tuic"
+	"github.com/Ruk1ng001/Clash.Meta/adapter/inbound"
+	CN "github.com/Ruk1ng001/Clash.Meta/common/net"
+	"github.com/Ruk1ng001/Clash.Meta/common/sockopt"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	LC "github.com/Ruk1ng001/Clash.Meta/listener/config"
+	"github.com/Ruk1ng001/Clash.Meta/log"
+	"github.com/Ruk1ng001/Clash.Meta/transport/socks5"
+	"github.com/Ruk1ng001/Clash.Meta/transport/tuic"
 )
 
 const ServerMaxIncomingStreams = (1 << 32) - 1

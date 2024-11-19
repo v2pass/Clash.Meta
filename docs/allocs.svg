@@ -795,7 +795,7 @@ function handleMouseUp(evt) {
 <!-- N9 -->
 <g id="node9" class="node">
 <title>N9</title>
-<g id="a_node9"><a xlink:title="github.com/Dreamacro/clash/transport/tuic/congestion.NewConnectionStateOnSentPacket (236.03MB)">
+<g id="a_node9"><a xlink:title="github.com/Ruk1ng001/Clash.Meta/transport/tuic/congestion.NewConnectionStateOnSentPacket (236.03MB)">
 <polygon fill="#ede4dd" stroke="#b2743f" points="923,-1484 577,-1484 577,-1401 923,-1401 923,-1484"/>
 <text text-anchor="middle" x="750" y="-1461.6" font-family="Times New Roman,serif" font-size="23.00">congestion</text>
 <text text-anchor="middle" x="750" y="-1436.6" font-family="Times New Roman,serif" font-size="23.00">NewConnectionStateOnSentPacket</text>
@@ -1218,12 +1218,12 @@ function handleMouseUp(evt) {
 <!-- N17&#45;&gt;N9 -->
 <g id="edge34" class="edge">
 <title>N17&#45;&gt;N9</title>
-<g id="a_edge34"><a xlink:title="github.com/metacubex/quic&#45;go/internal/ackhandler.(*sentPacketHandler).SentPacket ... github.com/Dreamacro/clash/transport/tuic/congestion.NewConnectionStateOnSentPacket (236.03MB)">
+<g id="a_edge34"><a xlink:title="github.com/metacubex/quic&#45;go/internal/ackhandler.(*sentPacketHandler).SentPacket ... github.com/Ruk1ng001/Clash.Meta/transport/tuic/congestion.NewConnectionStateOnSentPacket (236.03MB)">
 <path fill="none" stroke="#b2743f" stroke-dasharray="1,5" d="M751.7,-1564.67C751.45,-1546.52 751.07,-1519.69 750.74,-1495.88"/>
 <polygon fill="#b2743f" stroke="#b2743f" points="754.24,-1495.95 750.6,-1486 747.24,-1496.05 754.24,-1495.95"/>
 </a>
 </g>
-<g id="a_edge34&#45;label"><a xlink:title="github.com/metacubex/quic&#45;go/internal/ackhandler.(*sentPacketHandler).SentPacket ... github.com/Dreamacro/clash/transport/tuic/congestion.NewConnectionStateOnSentPacket (236.03MB)">
+<g id="a_edge34&#45;label"><a xlink:title="github.com/metacubex/quic&#45;go/internal/ackhandler.(*sentPacketHandler).SentPacket ... github.com/Ruk1ng001/Clash.Meta/transport/tuic/congestion.NewConnectionStateOnSentPacket (236.03MB)">
 <text text-anchor="middle" x="783.5" y="-1535.8" font-family="Times New Roman,serif" font-size="14.00"> 236.03MB</text>
 <text text-anchor="middle" x="783.5" y="-1520.8" font-family="Times New Roman,serif" font-size="14.00"> (inline)</text>
 </a>
@@ -1296,7 +1296,7 @@ function handleMouseUp(evt) {
 <!-- N20 -->
 <g id="node20" class="node">
 <title>N20</title>
-<g id="a_node20"><a xlink:title="github.com/Dreamacro/clash/component/geodata.LoadGeoSiteMatcher (74.20MB)">
+<g id="a_node20"><a xlink:title="github.com/Ruk1ng001/Clash.Meta/component/geodata.LoadGeoSiteMatcher (74.20MB)">
 <polygon fill="#edebe8" stroke="#b2a48e" points="1857.5,-1605 1760.5,-1605 1760.5,-1569 1857.5,-1569 1857.5,-1605"/>
 <text text-anchor="middle" x="1809" y="-1594.1" font-family="Times New Roman,serif" font-size="8.00">geodata</text>
 <text text-anchor="middle" x="1809" y="-1585.1" font-family="Times New Roman,serif" font-size="8.00">LoadGeoSiteMatcher</text>
@@ -1307,7 +1307,7 @@ function handleMouseUp(evt) {
 <!-- N33 -->
 <g id="node33" class="node">
 <title>N33</title>
-<g id="a_node33"><a xlink:title="github.com/Dreamacro/clash/component/geodata/router.NewMphMatcherGroup (57.15MB)">
+<g id="a_node33"><a xlink:title="github.com/Ruk1ng001/Clash.Meta/component/geodata/router.NewMphMatcherGroup (57.15MB)">
 <polygon fill="#edebe9" stroke="#b2a896" points="1858,-1460.5 1760,-1460.5 1760,-1424.5 1858,-1424.5 1858,-1460.5"/>
 <text text-anchor="middle" x="1809" y="-1449.6" font-family="Times New Roman,serif" font-size="8.00">router</text>
 <text text-anchor="middle" x="1809" y="-1440.6" font-family="Times New Roman,serif" font-size="8.00">NewMphMatcherGroup</text>
@@ -1318,12 +1318,12 @@ function handleMouseUp(evt) {
 <!-- N20&#45;&gt;N33 -->
 <g id="edge57" class="edge">
 <title>N20&#45;&gt;N33</title>
-<g id="a_edge57"><a xlink:title="github.com/Dreamacro/clash/component/geodata.LoadGeoSiteMatcher &#45;&gt; github.com/Dreamacro/clash/component/geodata/router.NewMphMatcherGroup (57.15MB)">
+<g id="a_edge57"><a xlink:title="github.com/Ruk1ng001/Clash.Meta/component/geodata.LoadGeoSiteMatcher &#45;&gt; github.com/Ruk1ng001/Clash.Meta/component/geodata/router.NewMphMatcherGroup (57.15MB)">
 <path fill="none" stroke="#b2a896" d="M1809,-1568.53C1809,-1544.47 1809,-1500.84 1809,-1472.02"/>
 <polygon fill="#b2a896" stroke="#b2a896" points="1812.5,-1472.18 1809,-1462.18 1805.5,-1472.18 1812.5,-1472.18"/>
 </a>
 </g>
-<g id="a_edge57&#45;label"><a xlink:title="github.com/Dreamacro/clash/component/geodata.LoadGeoSiteMatcher &#45;&gt; github.com/Dreamacro/clash/component/geodata/router.NewMphMatcherGroup (57.15MB)">
+<g id="a_edge57&#45;label"><a xlink:title="github.com/Ruk1ng001/Clash.Meta/component/geodata.LoadGeoSiteMatcher &#45;&gt; github.com/Ruk1ng001/Clash.Meta/component/geodata/router.NewMphMatcherGroup (57.15MB)">
 <text text-anchor="middle" x="1837" y="-1528.3" font-family="Times New Roman,serif" font-size="14.00"> 57.15MB</text>
 </a>
 </g>
@@ -1342,12 +1342,12 @@ function handleMouseUp(evt) {
 <!-- N20&#45;&gt;N40 -->
 <g id="edge80" class="edge">
 <title>N20&#45;&gt;N40</title>
-<g id="a_edge80"><a xlink:title="github.com/Dreamacro/clash/component/geodata.LoadGeoSiteMatcher ... reflect.New (11.50MB)">
+<g id="a_edge80"><a xlink:title="github.com/Ruk1ng001/Clash.Meta/component/geodata.LoadGeoSiteMatcher ... reflect.New (11.50MB)">
 <path fill="none" stroke="#b2b1ac" stroke-dasharray="1,5" d="M1836.41,-1568.68C1846.72,-1562.03 1858.49,-1554.29 1869,-1547 1903.7,-1522.93 1942.22,-1494.31 1970.06,-1473.27"/>
 <polygon fill="#b2b1ac" stroke="#b2b1ac" points="1972,-1476.19 1977.86,-1467.36 1967.78,-1470.61 1972,-1476.19"/>
 </a>
 </g>
-<g id="a_edge80&#45;label"><a xlink:title="github.com/Dreamacro/clash/component/geodata.LoadGeoSiteMatcher ... reflect.New (11.50MB)">
+<g id="a_edge80&#45;label"><a xlink:title="github.com/Ruk1ng001/Clash.Meta/component/geodata.LoadGeoSiteMatcher ... reflect.New (11.50MB)">
 <text text-anchor="middle" x="1935" y="-1528.3" font-family="Times New Roman,serif" font-size="14.00"> 11.50MB</text>
 </a>
 </g>
@@ -1658,7 +1658,7 @@ function handleMouseUp(evt) {
 <!-- N27 -->
 <g id="node27" class="node">
 <title>N27</title>
-<g id="a_node27"><a xlink:title="github.com/Dreamacro/clash/component/geodata/strmatcher.(*MphMatcherGroup).Build (37.85MB)">
+<g id="a_node27"><a xlink:title="github.com/Ruk1ng001/Clash.Meta/component/geodata/strmatcher.(*MphMatcherGroup).Build (37.85MB)">
 <polygon fill="#edecea" stroke="#b2aca0" points="1797.5,-1292.5 1656.5,-1292.5 1656.5,-1224.5 1797.5,-1224.5 1797.5,-1292.5"/>
 <text text-anchor="middle" x="1727" y="-1277.3" font-family="Times New Roman,serif" font-size="14.00">strmatcher</text>
 <text text-anchor="middle" x="1727" y="-1262.3" font-family="Times New Roman,serif" font-size="14.00">(*MphMatcherGroup)</text>
@@ -1746,7 +1746,7 @@ function handleMouseUp(evt) {
 <!-- N30 -->
 <g id="node30" class="node">
 <title>N30</title>
-<g id="a_node30"><a xlink:title="github.com/Dreamacro/clash/rules/common.NewGEOSITE (74.20MB)">
+<g id="a_node30"><a xlink:title="github.com/Ruk1ng001/Clash.Meta/rules/common.NewGEOSITE (74.20MB)">
 <polygon fill="#edebe8" stroke="#b2a48e" points="1857.5,-1834 1760.5,-1834 1760.5,-1798 1857.5,-1798 1857.5,-1834"/>
 <text text-anchor="middle" x="1809" y="-1823.1" font-family="Times New Roman,serif" font-size="8.00">common</text>
 <text text-anchor="middle" x="1809" y="-1814.1" font-family="Times New Roman,serif" font-size="8.00">NewGEOSITE</text>
@@ -1757,12 +1757,12 @@ function handleMouseUp(evt) {
 <!-- N30&#45;&gt;N20 -->
 <g id="edge68" class="edge">
 <title>N30&#45;&gt;N20</title>
-<g id="a_edge68"><a xlink:title="github.com/Dreamacro/clash/rules/common.NewGEOSITE &#45;&gt; github.com/Dreamacro/clash/component/geodata.LoadGeoSiteMatcher (25.91MB)">
+<g id="a_edge68"><a xlink:title="github.com/Ruk1ng001/Clash.Meta/rules/common.NewGEOSITE &#45;&gt; github.com/Ruk1ng001/Clash.Meta/component/geodata.LoadGeoSiteMatcher (25.91MB)">
 <path fill="none" stroke="#b2aea5" d="M1761.21,-1797.62C1737.04,-1786.11 1709.93,-1768.39 1696,-1743 1678.26,-1710.66 1678.26,-1692.34 1696,-1660 1708.02,-1638.08 1729.87,-1621.87 1751.17,-1610.45"/>
 <polygon fill="#b2aea5" stroke="#b2aea5" points="1752.51,-1613.69 1759.86,-1606.06 1749.35,-1607.45 1752.51,-1613.69"/>
 </a>
 </g>
-<g id="a_edge68&#45;label"><a xlink:title="github.com/Dreamacro/clash/rules/common.NewGEOSITE &#45;&gt; github.com/Dreamacro/clash/component/geodata.LoadGeoSiteMatcher (25.91MB)">
+<g id="a_edge68&#45;label"><a xlink:title="github.com/Ruk1ng001/Clash.Meta/rules/common.NewGEOSITE &#45;&gt; github.com/Ruk1ng001/Clash.Meta/component/geodata.LoadGeoSiteMatcher (25.91MB)">
 <text text-anchor="middle" x="1724" y="-1697.8" font-family="Times New Roman,serif" font-size="14.00"> 25.91MB</text>
 </a>
 </g>
@@ -1770,7 +1770,7 @@ function handleMouseUp(evt) {
 <!-- N46 -->
 <g id="node46" class="node">
 <title>N46</title>
-<g id="a_node46"><a xlink:title="github.com/Dreamacro/clash/component/geodata.Verify (51.44MB)">
+<g id="a_node46"><a xlink:title="github.com/Ruk1ng001/Clash.Meta/component/geodata.Verify (51.44MB)">
 <polygon fill="#edece9" stroke="#b2a999" points="1857.5,-1719.5 1760.5,-1719.5 1760.5,-1683.5 1857.5,-1683.5 1857.5,-1719.5"/>
 <text text-anchor="middle" x="1809" y="-1708.6" font-family="Times New Roman,serif" font-size="8.00">geodata</text>
 <text text-anchor="middle" x="1809" y="-1699.6" font-family="Times New Roman,serif" font-size="8.00">Verify</text>
@@ -1781,12 +1781,12 @@ function handleMouseUp(evt) {
 <!-- N30&#45;&gt;N46 -->
 <g id="edge60" class="edge">
 <title>N30&#45;&gt;N46</title>
-<g id="a_edge60"><a xlink:title="github.com/Dreamacro/clash/rules/common.NewGEOSITE ... github.com/Dreamacro/clash/component/geodata.Verify (48.29MB)">
+<g id="a_edge60"><a xlink:title="github.com/Ruk1ng001/Clash.Meta/rules/common.NewGEOSITE ... github.com/Ruk1ng001/Clash.Meta/component/geodata.Verify (48.29MB)">
 <path fill="none" stroke="#b2aa9b" stroke-dasharray="1,5" d="M1809,-1797.91C1809,-1780.24 1809,-1752.32 1809,-1731.24"/>
 <polygon fill="#b2aa9b" stroke="#b2aa9b" points="1812.5,-1731.26 1809,-1721.26 1805.5,-1731.26 1812.5,-1731.26"/>
 </a>
 </g>
-<g id="a_edge60&#45;label"><a xlink:title="github.com/Dreamacro/clash/rules/common.NewGEOSITE ... github.com/Dreamacro/clash/component/geodata.Verify (48.29MB)">
+<g id="a_edge60&#45;label"><a xlink:title="github.com/Ruk1ng001/Clash.Meta/rules/common.NewGEOSITE ... github.com/Ruk1ng001/Clash.Meta/component/geodata.Verify (48.29MB)">
 <text text-anchor="middle" x="1837" y="-1764.8" font-family="Times New Roman,serif" font-size="14.00"> 48.29MB</text>
 </a>
 </g>
@@ -1881,12 +1881,12 @@ function handleMouseUp(evt) {
 <!-- N33&#45;&gt;N27 -->
 <g id="edge62" class="edge">
 <title>N33&#45;&gt;N27</title>
-<g id="a_edge62"><a xlink:title="github.com/Dreamacro/clash/component/geodata/router.NewMphMatcherGroup &#45;&gt; github.com/Dreamacro/clash/component/geodata/strmatcher.(*MphMatcherGroup).Build (37.85MB)">
+<g id="a_edge62"><a xlink:title="github.com/Ruk1ng001/Clash.Meta/component/geodata/router.NewMphMatcherGroup &#45;&gt; github.com/Ruk1ng001/Clash.Meta/component/geodata/strmatcher.(*MphMatcherGroup).Build (37.85MB)">
 <path fill="none" stroke="#b2aca0" d="M1801.14,-1424.05C1788.72,-1396.48 1764.17,-1342.01 1746.73,-1303.3"/>
 <polygon fill="#b2aca0" stroke="#b2aca0" points="1749.94,-1301.89 1742.64,-1294.21 1743.56,-1304.77 1749.94,-1301.89"/>
 </a>
 </g>
-<g id="a_edge62&#45;label"><a xlink:title="github.com/Dreamacro/clash/component/geodata/router.NewMphMatcherGroup &#45;&gt; github.com/Dreamacro/clash/component/geodata/strmatcher.(*MphMatcherGroup).Build (37.85MB)">
+<g id="a_edge62&#45;label"><a xlink:title="github.com/Ruk1ng001/Clash.Meta/component/geodata/router.NewMphMatcherGroup &#45;&gt; github.com/Ruk1ng001/Clash.Meta/component/geodata/strmatcher.(*MphMatcherGroup).Build (37.85MB)">
 <text text-anchor="middle" x="1803" y="-1349.3" font-family="Times New Roman,serif" font-size="14.00"> 37.85MB</text>
 </a>
 </g>
@@ -1894,7 +1894,7 @@ function handleMouseUp(evt) {
 <!-- N38 -->
 <g id="node38" class="node">
 <title>N38</title>
-<g id="a_node38"><a xlink:title="github.com/Dreamacro/clash/component/geodata/strmatcher.(*MphMatcherGroup).AddFullOrDomainPattern (18.80MB)">
+<g id="a_node38"><a xlink:title="github.com/Ruk1ng001/Clash.Meta/component/geodata/strmatcher.(*MphMatcherGroup).AddFullOrDomainPattern (18.80MB)">
 <polygon fill="#edeceb" stroke="#b2b0a9" points="1964,-1290.5 1816,-1290.5 1816,-1226.5 1964,-1226.5 1964,-1290.5"/>
 <text text-anchor="middle" x="1890" y="-1276.1" font-family="Times New Roman,serif" font-size="13.00">strmatcher</text>
 <text text-anchor="middle" x="1890" y="-1262.1" font-family="Times New Roman,serif" font-size="13.00">(*MphMatcherGroup)</text>
@@ -1906,12 +1906,12 @@ function handleMouseUp(evt) {
 <!-- N33&#45;&gt;N38 -->
 <g id="edge77" class="edge">
 <title>N33&#45;&gt;N38</title>
-<g id="a_edge77"><a xlink:title="github.com/Dreamacro/clash/component/geodata/router.NewMphMatcherGroup ... github.com/Dreamacro/clash/component/geodata/strmatcher.(*MphMatcherGroup).AddFullOrDomainPattern (18.80MB)">
+<g id="a_edge77"><a xlink:title="github.com/Ruk1ng001/Clash.Meta/component/geodata/router.NewMphMatcherGroup ... github.com/Ruk1ng001/Clash.Meta/component/geodata/strmatcher.(*MphMatcherGroup).AddFullOrDomainPattern (18.80MB)">
 <path fill="none" stroke="#b2b0a9" stroke-dasharray="1,5" d="M1816.77,-1424.05C1829.25,-1395.99 1854.14,-1340.07 1871.42,-1301.26"/>
 <polygon fill="#b2b0a9" stroke="#b2b0a9" points="1874.59,-1302.74 1875.45,-1292.18 1868.19,-1299.9 1874.59,-1302.74"/>
 </a>
 </g>
-<g id="a_edge77&#45;label"><a xlink:title="github.com/Dreamacro/clash/component/geodata/router.NewMphMatcherGroup ... github.com/Dreamacro/clash/component/geodata/strmatcher.(*MphMatcherGroup).AddFullOrDomainPattern (18.80MB)">
+<g id="a_edge77&#45;label"><a xlink:title="github.com/Ruk1ng001/Clash.Meta/component/geodata/router.NewMphMatcherGroup ... github.com/Ruk1ng001/Clash.Meta/component/geodata/strmatcher.(*MphMatcherGroup).AddFullOrDomainPattern (18.80MB)">
 <text text-anchor="middle" x="1882" y="-1356.8" font-family="Times New Roman,serif" font-size="14.00"> 18.80MB</text>
 <text text-anchor="middle" x="1882" y="-1341.8" font-family="Times New Roman,serif" font-size="14.00"> (inline)</text>
 </a>
@@ -2174,12 +2174,12 @@ function handleMouseUp(evt) {
 <!-- N46&#45;&gt;N20 -->
 <g id="edge59" class="edge">
 <title>N46&#45;&gt;N20</title>
-<g id="a_edge59"><a xlink:title="github.com/Dreamacro/clash/component/geodata.Verify &#45;&gt; github.com/Dreamacro/clash/component/geodata.LoadGeoSiteMatcher (48.29MB)">
+<g id="a_edge59"><a xlink:title="github.com/Ruk1ng001/Clash.Meta/component/geodata.Verify &#45;&gt; github.com/Ruk1ng001/Clash.Meta/component/geodata.LoadGeoSiteMatcher (48.29MB)">
 <path fill="none" stroke="#b2aa9b" d="M1809,-1683.41C1809,-1665.74 1809,-1637.82 1809,-1616.74"/>
 <polygon fill="#b2aa9b" stroke="#b2aa9b" points="1812.5,-1616.76 1809,-1606.76 1805.5,-1616.76 1812.5,-1616.76"/>
 </a>
 </g>
-<g id="a_edge59&#45;label"><a xlink:title="github.com/Dreamacro/clash/component/geodata.Verify &#45;&gt; github.com/Dreamacro/clash/component/geodata.LoadGeoSiteMatcher (48.29MB)">
+<g id="a_edge59&#45;label"><a xlink:title="github.com/Ruk1ng001/Clash.Meta/component/geodata.Verify &#45;&gt; github.com/Ruk1ng001/Clash.Meta/component/geodata.LoadGeoSiteMatcher (48.29MB)">
 <text text-anchor="middle" x="1837" y="-1630.8" font-family="Times New Roman,serif" font-size="14.00"> 48.29MB</text>
 </a>
 </g>
@@ -2312,12 +2312,12 @@ function handleMouseUp(evt) {
 <!-- N52&#45;&gt;N30 -->
 <g id="edge50" class="edge">
 <title>N52&#45;&gt;N30</title>
-<g id="a_edge50"><a xlink:title="main.main ... github.com/Dreamacro/clash/rules/common.NewGEOSITE (74.20MB)">
+<g id="a_edge50"><a xlink:title="main.main ... github.com/Ruk1ng001/Clash.Meta/rules/common.NewGEOSITE (74.20MB)">
 <path fill="none" stroke="#b2a48e" stroke-dasharray="1,5" d="M1809,-1892.51C1809,-1879.39 1809,-1861.14 1809,-1845.87"/>
 <polygon fill="#b2a48e" stroke="#b2a48e" points="1812.5,-1845.93 1809,-1835.93 1805.5,-1845.93 1812.5,-1845.93"/>
 </a>
 </g>
-<g id="a_edge50&#45;label"><a xlink:title="main.main ... github.com/Dreamacro/clash/rules/common.NewGEOSITE (74.20MB)">
+<g id="a_edge50&#45;label"><a xlink:title="main.main ... github.com/Ruk1ng001/Clash.Meta/rules/common.NewGEOSITE (74.20MB)">
 <text text-anchor="middle" x="1837" y="-1859.8" font-family="Times New Roman,serif" font-size="14.00"> 74.20MB</text>
 </a>
 </g>

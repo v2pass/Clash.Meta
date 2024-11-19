@@ -1,7 +1,7 @@
 package dialer
 
 import (
-	"github.com/Dreamacro/clash/component/resolver"
+	"github.com/Ruk1ng001/Clash.Meta/component/resolver"
 
 	"go.uber.org/atomic"
 )

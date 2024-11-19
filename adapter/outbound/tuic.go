@@ -15,10 +15,10 @@ import (
 
 	"github.com/metacubex/quic-go"
 
-	"github.com/Dreamacro/clash/component/dialer"
-	tlsC "github.com/Dreamacro/clash/component/tls"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/transport/tuic"
+	"github.com/Ruk1ng001/Clash.Meta/component/dialer"
+	tlsC "github.com/Ruk1ng001/Clash.Meta/component/tls"
+	C "github.com/Ruk1ng001/Clash.Meta/constant"
+	"github.com/Ruk1ng001/Clash.Meta/transport/tuic"
 )
 
 type Tuic struct {
