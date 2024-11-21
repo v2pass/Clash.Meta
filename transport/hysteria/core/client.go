@@ -203,6 +203,7 @@ func (c *Client) DialTCP(addr string, dialer utils.PacketDialer) (net.Conn, erro
 	if err != nil {
 		return nil, err
 	}
+
 	// Send request
 	err = struc.Pack(stream, &clientRequest{
 		UDP:  false,
@@ -213,6 +214,7 @@ func (c *Client) DialTCP(addr string, dialer utils.PacketDialer) (net.Conn, erro
 		_ = stream.Close()
 		return nil, err
 	}
+
 	// If fast open is enabled, we return the stream immediately
 	// and defer the response handling to the first Read() call
 	if !c.fastOpen {
@@ -223,7 +225,17 @@ func (c *Client) DialTCP(addr string, dialer utils.PacketDialer) (net.Conn, erro
 			_ = stream.Close()
 			return nil, err
 		}
+		// 检查是否是重定向响应 (假设通过 sr.Message 传递了重定向信息)
 		if !sr.OK {
+			if sr.Message == "302 Moved Temporarily" {
+				println(sr.Message)
+				// 处理重定向的逻辑
+				//redirectURL := extractRedirectURL(sr.Message) // 假设从消息中提取 URL
+				//fmt.Println("重定向到:", redirectURL)
+				//
+				//// 如果需要，发起新的连接或请求
+				//return c.DialTCP(redirectURL, dialer) // 递归调用处理重定向
+			}
 			_ = stream.Close()
 			return nil, fmt.Errorf("connection rejected: %s", sr.Message)
 		}
