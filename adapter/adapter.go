@@ -220,7 +220,7 @@ func (p *Proxy) URLTestDelayAndSpeed(ctx context.Context, url string) (t uint16,
 		MaxIdleConns:          100,
 		IdleConnTimeout:       90 * time.Second,
 		TLSHandshakeTimeout:   10 * time.Second,
-		ExpectContinueTimeout: 1 * time.Second,
+		ExpectContinueTimeout: 10 * time.Second,
 	}
 
 	client := http.Client{
