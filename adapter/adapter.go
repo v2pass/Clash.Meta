@@ -251,7 +251,7 @@ func (p *Proxy) URLTestDelayAndSpeed(ctx context.Context, url string) (t uint16,
 
 	defer resp.Body.Close()
 	written, _ := io.Copy(io.Discard, resp.Body)
-	s = float64(written / time.Since(start).Microseconds())
+	s = float64(written) / float64(time.Since(start).Microseconds())
 	return
 }
 
