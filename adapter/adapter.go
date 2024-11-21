@@ -206,7 +206,7 @@ func (p *Proxy) URLTestDelayAndSpeed(ctx context.Context, url string) (t uint16,
 		_ = instance.Close()
 	}()
 
-	req, err := http.NewRequest(http.MethodHead, url, nil)
+	req, err := http.NewRequest(http.MethodGet, url, nil)
 	if err != nil {
 		return
 	}
