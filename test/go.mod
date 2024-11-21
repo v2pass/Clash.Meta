@@ -17,7 +17,7 @@ require (
 	github.com/Microsoft/go-winio v0.5.1 // indirect
 	github.com/aead/chacha20 v0.0.0-20180709150244-8b13a72661da // indirect
 	github.com/cilium/ebpf v0.9.3 // indirect
-	github.com/coreos/go-iptables v0.6.0 // indirect
+	github.com/coreos/go-iptables v0.8.0 // indirect
 	github.com/database64128/tfo-go/v2 v2.0.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dlclark/regexp2 v1.7.0 // indirect
