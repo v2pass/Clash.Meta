@@ -12,6 +12,7 @@ import (
 	"net/http"
 	"net/netip"
 	"net/url"
+	"strings"
 	"time"
 
 	"go.uber.org/atomic"
@@ -200,7 +201,9 @@ func (p *Proxy) URLTestDelayAndSpeed(ctx context.Context, url string) (t uint16,
 	start := time.Now()
 	instance, err := p.DialContext(ctx, &addr)
 	if err != nil {
-		return
+		if !strings.Contains(err.Error(), "302 Move") {
+			return
+		}
 	}
 	defer func() {
 		_ = instance.Close()
