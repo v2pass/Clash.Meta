@@ -210,9 +210,11 @@ func ConvertsV2Ray(buf []byte) ([]map[string]any, error) {
 			}
 			vmess["network"] = network
 
-			tls := strings.ToLower(values["tls"].(string))
-			if strings.HasSuffix(tls, "tls") {
-				vmess["tls"] = true
+			if v, ok := values["tls"]; ok {
+				tls := strings.ToLower(v.(string))
+				if strings.HasSuffix(tls, "tls") {
+					vmess["tls"] = true
+				}
 			}
 
 			switch network {
