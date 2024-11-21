@@ -22,6 +22,7 @@ const (
 	Selector
 	Fallback
 	URLTest
+	URLTestDelayAndSpeed
 	LoadBalance
 
 	Shadowsocks
@@ -194,6 +195,8 @@ func (at AdapterType) String() string {
 		return "Fallback"
 	case URLTest:
 		return "URLTest"
+	case URLTestDelayAndSpeed:
+		return "URLTestDelayAndSpeed"
 	case LoadBalance:
 		return "LoadBalance"
 
