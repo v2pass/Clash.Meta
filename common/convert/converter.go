@@ -274,11 +274,12 @@ func ConvertsV2Ray(buf []byte) ([]map[string]any, error) {
 
 			if port == "" {
 				dcBuf, err := encRaw.DecodeString(urlSS.Host)
-				if err != nil {
+				dcStr := string(dcBuf)
+				if err != nil && len(dcBuf) == 0 && !strings.Contains(dcStr, ":") {
 					continue
 				}
 
-				urlSS, err = url.Parse("ss://" + string(dcBuf))
+				urlSS, err = url.Parse("ss://" + dcStr)
 				if err != nil {
 					continue
 				}
@@ -309,6 +310,9 @@ func ConvertsV2Ray(buf []byte) ([]map[string]any, error) {
 			ss := make(map[string]any, 10)
 
 			ss["name"] = name
+			if name == "" {
+				ss["name"] = urlSS.Hostname() + urlSS.Port()
+			}
 			ss["type"] = scheme
 			ss["server"] = urlSS.Hostname()
 			ss["port"] = urlSS.Port()
@@ -329,7 +333,7 @@ func ConvertsV2Ray(buf []byte) ([]map[string]any, error) {
 			}
 			proxies = append(proxies, ss)
 		case "ssr":
-			dcBuf, err := encRaw.DecodeString(body)
+			dcBuf, err := tryDecodeBase64([]byte(body))
 			if err != nil {
 				continue
 			}

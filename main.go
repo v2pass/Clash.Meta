@@ -3,7 +3,6 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/Ruk1ng001/Clash.Meta/common/convert"
 	"github.com/Ruk1ng001/Clash.Meta/constant/features"
 	"os"
 	"os/signal"
@@ -51,12 +50,6 @@ func init() {
 }
 
 func main() {
-	//ray, err := convert.ConvertsV2Ray([]byte("vmess://eyJhZGQiOiAieHQueWxrczAxLmV1Lm9yZyIsICJwb3J0IjogMjA5NSwgImFpZCI6IDY0LCAiaWQiOiAiYjcxMDc3MGEtZmRhZi00MWZiLWJiZTQtNjhhNmM0MWUyNjA1IiwgIm5ldCI6ICJ3cyIsICJob3N0IjogIiIsICJwYXRoIjogIi9ibHVlIiwgInRscyI6ICIiLCAidHlwZSI6ICIiLCAidiI6IDJ9"))
-	ray, err := convert.ConvertsV2Ray([]byte("vless://23082daa-5437-4e20-986b-a6e156f8f133@172.67.193.195:"))
-	if err != nil {
-		return
-	}
-	println(len(ray))
 	_, _ = maxprocs.Set(maxprocs.Logger(func(string, ...any) {}))
 	if version {
 		fmt.Printf("Clash Meta %s %s %s with %s %s\n",

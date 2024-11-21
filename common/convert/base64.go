@@ -6,8 +6,10 @@ import (
 )
 
 var (
-	encRaw = base64.RawStdEncoding
-	enc    = base64.StdEncoding
+	encRaw  = base64.RawStdEncoding
+	enc     = base64.StdEncoding
+	encURaw = base64.RawURLEncoding
+	encU    = base64.RawURLEncoding
 )
 
 // DecodeBase64 try to decode content from the given bytes,
@@ -26,7 +28,13 @@ func tryDecodeBase64(buf []byte) ([]byte, error) {
 	if err != nil {
 		n, err = enc.Decode(dBuf, buf)
 		if err != nil {
-			return nil, err
+			n, err = encURaw.Decode(dBuf, buf)
+			if err != nil {
+				n, err = encU.Decode(dBuf, buf)
+				if err != nil {
+					return nil, err
+				}
+			}
 		}
 	}
 	return dBuf[:n], nil

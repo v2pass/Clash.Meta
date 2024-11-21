@@ -17,9 +17,9 @@ func handleVShareLink(names map[string]int, url *url.URL, scheme string, proxy m
 		return errors.New("url.Hostname() is empty")
 	}
 	if url.Port() == "" {
-		proxy["port"] = url.Port()
-	} else {
 		proxy["port"] = 443
+	} else {
+		proxy["port"] = url.Port()
 	}
 	proxy["type"] = scheme
 	proxy["server"] = url.Hostname()
