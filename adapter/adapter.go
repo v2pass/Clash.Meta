@@ -192,21 +192,19 @@ func (p *Proxy) URLTestDelayAndSpeed(ctx context.Context, url string) (t uint16,
 
 	unifiedDelay := UnifiedDelay.Load()
 
-	//addr, err := urlToMetadata(url)
-	//if err != nil {
-	//	return
-	//}
+	addr, err := urlToMetadata(url)
+	if err != nil {
+		return
+	}
 
 	start := time.Now()
-	//instance, err := p.DialContext(ctx, &addr)
-	//if err != nil {
-	//	if !strings.Contains(err.Error(), "302 Move") {
-	//		return
-	//	}
-	//}
-	//defer func() {
-	//	_ = instance.Close()
-	//}()
+	instance, err := p.DialContext(ctx, &addr)
+	if err != nil {
+		return
+	}
+	defer func() {
+		_ = instance.Close()
+	}()
 
 	req, err := http.NewRequest(http.MethodGet, url, nil)
 	if err != nil {
@@ -215,9 +213,9 @@ func (p *Proxy) URLTestDelayAndSpeed(ctx context.Context, url string) (t uint16,
 	req = req.WithContext(ctx)
 
 	transport := &http.Transport{
-		//DialContext: func(context.Context, string, string) (net.Conn, error) {
-		//	return instance, nil
-		//},
+		DialContext: func(context.Context, string, string) (net.Conn, error) {
+			return instance, nil
+		},
 		// from http.DefaultTransport
 		MaxIdleConns:          100,
 		IdleConnTimeout:       90 * time.Second,
